@@ -1,1 +1,13 @@
+1.  list.remove(Integer.valueOf(5)); // what does this one do?
+      --> removes the int value 5
 
+ 2. list.remove(5); // what does this method do?
+        --> removes the value of the element specified
+
+3.  i.remove(); // TODO what happens if you use list.remove(Integer.valueOf(77))?
+       In this scenario since it is in a while loop it will remove all values of 77 in
+       the list.
+
+4.which of the two lists performs better as the size increases?
+  List one: //297 ms --> 10 ; 100 --> 353ms; 1000 --> 804ms; 10000 --> 6s
+  List Two performs better as the size increases.

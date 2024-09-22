@@ -1,6 +1,0 @@
-1.  list.remove(Integer.valueOf(5)); // what does this one do?
-      --> removes the int value 5
-
- 2. list.remove(5); // what does this method do?
-        --> removes the value of the element specified
-
